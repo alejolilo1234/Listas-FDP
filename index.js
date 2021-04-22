@@ -15,6 +15,7 @@ function mayorL(lista){
     }
 }
 
+
 console.log(mayorL([]));
 console.log(mayorL([1,6,2]));
 console.log(mayorL([-9]));
