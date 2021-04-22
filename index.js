@@ -14,7 +14,22 @@ function mayorL(lista){
         return Math.max(first(lista) , mayorL(rest(lista)));
     }
 }
-
+/**
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ *  *//*
 
 console.log(mayorL([]));
 console.log(mayorL([1,6,2]));
@@ -22,27 +37,6 @@ console.log(mayorL([-9]));
 console.log(mayorL([1,6,20,3,-6, 8, 9]));
 */
 
-/*
-function cambiarElemento(p,lista,n){
-    if (isEmpty(lista)){
-        return [];
-    }
-    if (p>=0 && p<=length((lista))){
-        if(p==0){
-            return append(cons(n,[]), rest(lista));
-        }
-    else{
-        return append(cons(first(lista),[]), cambiarElemento(p-1,(rest(lista)), n));
-    }
-    }
-    else{
-        return lista;
-    }
-}
-console.log(cambiarElemento(0, [1, 2, 3], 7));
-console.log(cambiarElemento(1, [1, 2, 3], 7));
-console.log(cambiarElemento(2, [1, 2, 3], 7));
-*/
 
 /*
 const inventario = [
